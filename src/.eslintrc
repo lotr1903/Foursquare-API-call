@@ -1,0 +1,17 @@
+{
+    "extends": ["airbnb", "plugin:prettier/recommended","react-app"],
+    "rules": {
+      "react/jsx-one-expression-per-line": 0,
+      "import/no-extraneous-dependencies": 0,
+      "react/destructuring-assignment": 0,
+      "no-underscore-dangle": 0,
+      "react/prop-types": 0,
+      "prettier/prettier": "error",
+      "class-methods-use-this": 0,
+      "react-no-did-mount-state": 0,
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "react/jsx-indent": "off",
+      "react/jsx-indent-props": [1, "tab"]
+      },
+      "plugins": ["react", "import","prettier"]
+}
